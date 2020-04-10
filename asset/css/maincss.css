@@ -1,0 +1,96 @@
+dl, ol, ul, li {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+
+/**/
+.container {
+	/*margin-left: 230px;
+	margin-right: 230px;*/
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.container-fluid .pre-header1 {
+	text-align: center;
+	justify-content: center;
+	padding: 10px 0;
+	background-color: #aebdac; 
+	color: #424242;
+	letter-spacing: 3px;
+}
+.container .row img {
+	margin: 25px 0;
+}
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+}
+.header-menu .menu-bar-list {
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+.header-menu .menu-bar {
+	/*magin: 0;*/
+}
+.header-menu .menu-bar-list a {
+	text-decoration: none;
+	color: #444;
+	padding: 10px;
+}
+.header-menu .menu-bar-list li {
+	font-size: 15px;
+}
+.header-menu .menu-bar-list a:hover {
+	background-color: #DDD;
+}
+
+.header-menu .menu-bar-item {
+	padding: 0 10px;
+}
+.header-menu .profile-bar {
+	display: flex;
+	align-items: center;
+}
+.header-menu .profile-bar i {
+	font-size: 30px;
+	color: #404040;
+	text-align: center;
+}
+.header-menu .profile-bar .small-icon {
+	font-size: 15px;
+}
+.search-btn {
+	border: 1px solid grey;
+	background-color: #8f968b4d;
+	border-radius: 20px;
+	height: 40px;
+	outline: none;
+}
+
+.user-option-click {
+	position: relative;
+}
+.user-option-click .profile-wrapper {
+	position: absolute;
+	width: 150px;
+	background-color: #FBFBFB;
+	border: 1px solid #DDD;
+	right: 0;
+	top: 100%;
+	display: none
+	/*box-sizing: border-box;*/
+}
+.user-option-click .profile-wrapper li {
+	padding: 5px 15px;
+    color: #424242;
+}
+.user-option-click:hover .profile-wrapper {
+	display: block;
+}
